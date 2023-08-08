@@ -1,0 +1,105 @@
+* {
+    outline: 1px dotted rgb(172, 20, 172);
+}
+
+:root {
+
+    --bg: #d6dadf;
+    --main: #061130;
+    --text: #f4f6f8;
+    --textSpecial: #fafd61;
+    --footerText: #1c4bc4;
+}
+
+a {
+    color: var(--text);
+    margin: .5em, .25em;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    border: 0px;
+    font-family: 'laila', sans-serif;
+}
+
+img {
+    margin-right: 50%;
+}
+
+.fit-img {
+    width: 100%;
+}
+
+div {
+    padding-right: 1em;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color: var(--main);
+    border: 0px;
+    justify-content: space-between;
+}
+
+main {
+    background-color: var(--main);
+    padding: 100px;
+}
+
+.logo {
+    align-items: start;
+}
+
+.text-special {
+    color: var(--textSpecial);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.evenly {
+    padding-left: 75px;
+    align-items: right;
+}
+
+.global {
+    width: 300%;
+}
+
+.contact {
+    width: 10%;
+    justify-content: right;
+}
+
+button:hover {
+    background-color: #3d6add;
+}
+
+button {
+    margin: 2px;
+    padding: .5em;
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--footerText);
+    color: var(--text);
+}
+
+.links {
+    background-color: var(--text);
+    color: var(--footerText);
+    justify-content: space-around;
+
+    padding: 1em;
+}
+
+footer {
+    color: var(--main);
+    background-color: var(--bg);
+    justify-content: space-around;
+}
