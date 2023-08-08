@@ -69,7 +69,7 @@ main {
 }
 
 .global {
-    width: 300%;
+    width: fit-content;
 }
 
 .contact {
